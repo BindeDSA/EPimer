@@ -13,7 +13,7 @@ const buttonStyle = {
     paddingTop: 'calc(.5em - 1px)',
     textAlign: 'center',
     whiteSpace: 'nowrap',
-    fontSize: '5vw',
+    fontSize: '5vmin',
     fontWeight: 'bold',
     fontFamily: 'monospace',
     WebkitAppearance: 'none',

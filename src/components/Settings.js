@@ -4,10 +4,10 @@ import { switchShowNext } from '../redux/actions';
 
 const ConnectedSettings = ({showNext, switchShowNext}) => {
     return (
-        <div style={{fontSize: '5vw', fontWeight: 'Bold', textAlign: 'center'}}>
+        <div style={{fontSize: '5vmin', fontWeight: 'Bold', textAlign: 'center'}}>
             Settings <br />
             <input
-                style={{width: '5vw', height: '5vw'}}
+                style={{width: '5vmin', height: '5vmin'}}
                 type="checkbox"
                 onChange={switchShowNext}
                 defaultChecked={false}

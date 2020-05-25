@@ -23,8 +23,8 @@ class ConnectedTimer extends React.Component {
         const elapsed = getElapsedTime(start, stop);
 
         return (
-            <div style={{fontWeight: 'bold', fontFamily: 'monospace', fontSize: '5vw', textAlign: 'center'}}>
-                <span style={{display: 'inline-block', width: '40vw', textAlign: 'left' }}>Time: {elapsed / 1000}</span>
+            <div style={{fontWeight: 'bold', fontFamily: 'monospace', fontSize: '5vmin', textAlign: 'center'}}>
+                <span style={{display: 'inline-block', width: '40vmin', textAlign: 'left' }}>Time: {elapsed / 1000}</span>
                 <span>Digits: {depth}</span>
             </div>
         );

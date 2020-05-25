@@ -14,7 +14,7 @@ const ConnectedDisplay = ({ depth, error, showNext }) => {
     }
 
     return (
-        <div style={{ width: '80vw', margin: 'auto', fontWeight: 'bold', fontFamily: 'monospace', fontSize: '5vw' }} >
+        <div style={{ width: '80vmin', margin: 'auto', fontWeight: 'bold', fontFamily: 'monospace', fontSize: '5vmin' }} >
             {
                 depth === 1 ?
                     <div>3.</div> :
