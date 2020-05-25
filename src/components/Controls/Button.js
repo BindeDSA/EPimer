@@ -16,7 +16,7 @@ const buttonStyle = {
     fontSize: '5vw',
     fontWeight: 'bold',
     fontFamily: 'monospace',
-    webkitAppearance: 'none',
+    WebkitAppearance: 'none',
     alignItems: 'center',
     borderRadius: '4px',
     boxShadow: 'none',

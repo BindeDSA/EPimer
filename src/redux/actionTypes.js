@@ -5,3 +5,4 @@ export const STOP_TIMER = 'STOP_TIMER';
 export const RESET_TIMER = 'RESET_TIMER';
 export const ERROR_TRUE = 'ERROR_TRUE';
 export const ERROR_FALSE = 'ERROR_FALSE';
+export const SWITCH_SHOW_NEXT = "SWITCH_SHOW_NEXT";

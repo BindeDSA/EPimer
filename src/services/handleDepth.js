@@ -5,13 +5,11 @@ class HandleDepth {
     store;
 
     constructor(store) {
-        console.log(store)
         this.store = store;
         document.addEventListener('keypress', this.keyPressCheck);
     }
 
     keyPressCheck = (keyPress) => {
-        console.log(keyPress)
         const state = this.store.getState();
         if (keyPress.key === GetDigit.getDigits(state.depth)) {
             this.store.dispatch(incrementDepth());

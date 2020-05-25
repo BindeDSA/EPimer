@@ -1,4 +1,4 @@
-import { INCREMENT_DEPTH, RESET_DEPTH, START_TIMER, STOP_TIMER, RESET_TIMER, ERROR_TRUE, ERROR_FALSE } from './actionTypes';
+import { INCREMENT_DEPTH, RESET_DEPTH, START_TIMER, STOP_TIMER, RESET_TIMER, ERROR_TRUE, ERROR_FALSE, SWITCH_SHOW_NEXT } from './actionTypes';
 
 export const incrementDepth = () => ({
     type: INCREMENT_DEPTH,
@@ -26,4 +26,8 @@ export const errorTrue = () => ({
 
 export const errorFalse = () => ({
     type: ERROR_FALSE,
+})
+
+export const switchShowNext = () => ({
+    type: SWITCH_SHOW_NEXT,
 })
